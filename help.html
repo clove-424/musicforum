@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MusicMatcher</title>
+		<link href="style.css" rel="stylesheet">
+		<link rel="icon" href="favicon.ico" type="image/ico">
+        <meta charset="utf-8">
+		<meta name="viewport" content="width device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div class="navbar" id="myNavbar">
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>						
+					<div class="navigation" id="myNavigation">
+						<ul class="nav-list">
+							<li class="nav-item"><a href="profile.html">Profile</a></li>
+							<li class="nav-item"><a href="index.html">Home</a></li>	
+							<li class="genre-item"><a href="communitiestab/alternative.html">Alternative</a></li>
+							<li class="genre-item"><a href="communitiestab/classical.html">Classical</a></li>
+							<li class="genre-item"><a href="communitiestab/ost.html">Original Soundtracks</a></li>
+							<li class="genre-item"><a href="communitiestab/rock.html">Rock</a></li>
+							<li class="nav-item"><a href="about.html">About</a></li>
+							<li class="nav-item"><a href="help.html">Help</a></li>
+						</ul>
+						<small class="nav-footer">MusicMatcher &copy; 2025</small>
+					</div>
+				</div>
+				<div class="logo"></div>
+				<h1><a href="index.html">MusicMatcher</a></h1>
+			</header>
+			<main>
+				<h2>Help</h2>
+				<table>
+					<caption>This is the support page for any queries you may have about my website. Have any 
+						improvements you wish to see? Or have you noticed any issues while running the website?
+						Leave any relevant queries you may have by filling out one of the forms below.
+					</caption>
+					<tr class="description">
+						<td>Have suggestions?<br> There is always room for improvement,<br>
+							and your feedback is always appreciated!
+						</td>
+						<td>Experiencing bug issues?<br> Sorry to hear that!<br>
+							Let's see if we can fix them.
+						</td>
+					</tr>
+					<tr class="forms">
+						<td>
+							<form name="suggestions" method="post" id="suggestions" action="https://webdevbasics.net/scripts/demo.php">
+								<div class="optional">
+									<label for="myName1">Name (optional):</label>
+									<input type="text" id="myName1"><br>
+									<label for="myEmail1">Email (optional):</label>
+									<input type="text" id="myEmail1">
+								</div>
+								<div class="required">
+									<label for="myDescription1">Description:</label><br>
+									<textarea name="Description" id="myDescription1" cols="20" rows="5" required></textarea>
+								</div>
+								<input type="submit" id="mySubmit1" value="Submit">
+							</form>
+						</td>
+						<td>
+							<form name="issues" method="post" id="issues" action="https://webdevbasics.net/scripts/demo.php">
+								<div class="optional">
+									<label for="myName2">Name (optional):</label>
+									<input type="text" id="myName2"><br>
+									<label for="myEmail2">Email (optional):</label>
+									<input type="text" id="myEmail2">
+								</div>
+								<div class="required">
+									<label for="myDescription2">Description:</label><br>
+									<textarea name="Description" id="myDescription2" cols="20" rows="5" required></textarea>
+								</div>
+								<input type="submit" id="mySubmit2" value="Submit">
+							</form>
+						</td>
+					</tr>
+				</table>
+            </main>
+        </div>
+		<script src="script.js"></script>
+    </body>
+</html>

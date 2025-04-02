@@ -1,0 +1,16 @@
+3/11/25
+- table added in help.html (can find the styles below the ".content" selector)
+- used media queries for a responsive layout
+- added text in about.html
+- added a menu button that shows the nav bar with a smaller screen size (does not work)
+
+3/25/25
+- added forms in help.html 
+- "Trending" is now called "home"
+- Website is named "MusicMatcher"
+
+4/1/25
+TODO:
+- Need to add user ability to create posts into forums
+- Need to add content in "Profile" and add log in page
+- Need to add touches to how posts look 

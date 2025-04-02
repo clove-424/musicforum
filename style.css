@@ -1,0 +1,194 @@
+body { 
+        background-color: #FFFFFF; 
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+}
+#wrapper { background-color: #66acc4; }
+header { 
+        padding-top: 5px;
+        padding-bottom: 3px;
+        position: static;
+        background-color: #66acc4; 
+        text-align: left;
+}
+h1 {
+        margin-left: 2.5em; 
+        padding-right: 2.5em;
+}
+header a:link { 
+        text-decoration: none; 
+        color: #0b5269;
+}
+header a:visited { color: #0b5269; }
+header a:hover { color: #041d24; }
+.navbar {
+        overflow: hidden;
+        width: 125px;
+}
+.navbar .icon { 
+        display: block; 
+        position: absolute;
+        left: 20px;
+        top: 45px;
+}
+.navigation {
+        display: none;
+        flex-direction: column;
+        margin-top: 84px;
+        background-color: #c0b479; 
+        float: left; 
+        font-size: 1.25em;
+        padding-right: 100px; 
+        width: 125px; 
+        position: fixed;
+}
+.navigation.responsive {
+        display: flex;
+        flex-direction: column;
+        margin-top: 84px;
+        background-color: #c0b479; 
+        float: left; 
+        font-size: 1.25em;
+        padding-right: 100px; 
+        width: 125px; 
+        position: fixed;
+}
+.navigation.responsive .icon {
+        position: absolute;
+        top: 45px;
+        left: 20px;
+}
+.nav-list { 
+        list-style-type: none;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        position: sticky; 
+        padding-bottom: 151.5px;
+}
+.nav-list a:link { 
+        text-decoration: none; 
+        color: #433434; 
+}
+.nav-list a:visited { color: #433434; }
+.nav-list a:hover { 
+        color: #7a7248; 
+        font-weight: bold;
+}
+.nav-item { 
+        padding: 5px;
+        position: sticky; 
+}
+.genre-item { 
+        font-size: .8em;
+        list-style-type: none;
+        padding-left: 20px;
+        padding-right: 40px;
+        padding-top: 2px;
+        padding-bottom: 5px;		
+}
+.nav-footer { 
+        background-color: #82c0d4;
+        color: #0b5269;
+        font-size: .5em;
+        font-style: italic;
+        width: 115px;
+        padding: 1em;
+        padding-right: 100px;
+        border-top: 2px solid #136681; 
+}
+main { 
+        background-color: #FFFFFF;
+        padding-bottom: 12em;
+        padding-top: .5em;
+}
+main h2 { 
+        margin: 0.25em;
+        margin-left: 20px;
+        color: #202020;
+        text-align: left;
+} 
+p { 
+        margin-left: 1.5em; 
+        margin-right: 3em;
+}
+.following { 
+        display: none; 
+        margin: 50px;
+}
+.content { margin-right: 50px; }
+.content a { 
+        text-decoration: none;
+        color: #7a7248;
+}
+.subforum-title { padding-left: 20px;}
+.subforum-content {
+        display: grid;
+        grid-template-columns: 65% 20% 15%;
+        margin-right: 15px;
+}
+table { 
+        margin-left: 2em; 
+        margin-right: 3em;
+}
+caption { 
+        text-align: left; 
+        margin-bottom: 1em; 
+}
+.comment-form textarea {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin-left: 25px;
+}
+.recent-comment { 
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;}
+button { margin-left: 25px; }
+input[type="submit"] { 
+        width: 9em; 
+        margin-top: 10px; 
+}
+@media screen and (min-width: 850px) {
+        #wrapper { background-color: #c0b479; }
+        .navbar .icon { display: none; }
+        .navigation { display: flex; }
+        main { 
+                margin-right: 0;
+                padding-top: 10px;
+                margin-left: 225px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+        }
+        main h2 { text-align: left; }
+        .following { 
+                display: none;
+                float: right; 
+                background-color: #eee0e0; 
+                color: #202020;
+                max-width: 320px; 
+                height: 400px; 
+                margin: 1.5em; 
+                padding-left: 15px; 
+                position: fixed; 
+                right: 30px;
+                top: 100px;
+        } 
+        .content { margin-left: 50px; } 
+}
+@media screen and (min-width: 1100px) { 
+        h1 { padding-right: 160px; }
+        main { 
+                padding-top: 10px;
+                margin-left: 225px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+        }
+        main h2 { text-align: left; }
+        .following { display: flex; } 
+        .content { margin-right: 50px; }
+}
