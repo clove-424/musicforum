@@ -151,6 +151,16 @@ input[type="submit"] {
         width: 9em; 
         margin-top: 10px; 
 }
+.about-main { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+video { 
+        width: 300px;
+        height: 400px;
+}
 @media screen and (min-width: 850px) {
         #wrapper { background-color: #c0b479; }
         .navbar .icon { display: none; }
@@ -178,6 +188,10 @@ input[type="submit"] {
                 top: 100px;
         } 
         .content { margin-left: 50px; } 
+        video { 
+                width: 400px;
+                height: 500px;
+        }
 }
 @media screen and (min-width: 1100px) { 
         h1 { padding-right: 160px; }
@@ -191,4 +205,11 @@ input[type="submit"] {
         main h2 { text-align: left; }
         .following { display: flex; } 
         .content { margin-right: 50px; }
+        .about-main { 
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: normal;
+        }
+        video { margin-right: 50px; }
 }

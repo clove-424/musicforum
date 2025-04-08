@@ -10,7 +10,12 @@
 - Website is named "MusicMatcher"
 
 4/1/25
+- Added hamburger menu that shows when on mobile or small window on PC
 TODO:
 - Need to add user ability to create posts into forums
 - Need to add content in "Profile" and add log in page
 - Need to add touches to how posts look 
+- Need to add logo to header
+
+4/8/25
+- Added video to about.html and made changes to style.css
