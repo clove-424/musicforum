@@ -19,3 +19,6 @@ TODO:
 
 4/8/25
 - Added video to about.html and made changes to style.css
+
+4/15/25
+- Added a products page to the navigation bar, along with the products available to purchase

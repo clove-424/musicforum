@@ -4,7 +4,7 @@
         <title>MusicMatcher</title>
 		<link href="style.css" rel="stylesheet">
 		<link rel="icon" href="favicon.ico" type="image/ico">
-        	<meta charset="utf-8">
+        <meta charset="utf-8">
 		<meta name="viewport" content="width device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
@@ -12,7 +12,7 @@
 		<div id="wrapper">
 			<header>
 				<div class="navbar" id="myNavbar">
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
 						<i class="fa fa-bars"></i>
 					</a>	
 					<div class="navigation" id="myNavigation">
@@ -25,6 +25,7 @@
 							<li class="genre-item"><a href="rock.html">Rock</a></li>
 							<li class="nav-item"><a href="about.html">About</a></li>
 							<li class="nav-item"><a href="help.html">Help</a></li>
+							<li class="nav-item"><a href="products.html">Products</a></li>
 						</ul>
 						<small class="nav-footer">MusicMatcher &copy; 2025</small>
 					</div>
@@ -34,17 +35,15 @@
 			</header>
 			<main>
 				<div class="comment-form">
-					<form name="comment" method="post" id="comment" action="alternative.html">
-						<textarea name="myComment" id="myComment" cols="40" rows="4" required></textarea>
-						<button>Post</button> 
-					</form>
+					<textarea name="myComment" id="myComment" cols="40" rows="4" required></textarea>
+					<button onclick="postComment()">Post</button> 
 				</div>
 				<h2>Alternative</h2>
 				<div class="content">
 					<div class="recent-comment">
 						<a href="">@clove424</a><small>1 April 2025</small>
 						<p>What are some alternative playlists you have saved?</p>
-						<a href="">2 replies</a>
+						<a href="">Replies</a>
 					</div>
 				</div>
 			</main>
