@@ -1,13 +1,9 @@
-3/11/25
-- table added in help.html (can find the styles below the ".content" selector)
-- used media queries for a responsive layout
-- added text in about.html
-- added a menu button that shows the nav bar with a smaller screen size (does not work)
+4/15/25
+- Added a products page to the navigation bar, along with the products available to purchase
+- "Add to Cart" takes you to https://webdevbasics.net/cart.html, so a real transaction is not made
 
-3/25/25
-- added forms in help.html 
-- "Trending" is now called "home"
-- Website is named "MusicMatcher"
+4/8/25
+- Added video to about.html and made changes to style.css
 
 4/1/25
 - Added hamburger menu that shows when on mobile or small window on PC
@@ -17,8 +13,13 @@ TODO:
 - Need to add touches to how posts look 
 - Need to add logo to header
 
-4/8/25
-- Added video to about.html and made changes to style.css
+3/25/25
+- added forms in help.html 
+- "Trending" is now called "home"
+- Website is named "MusicMatcher"
 
-4/15/25
-- Added a products page to the navigation bar, along with the products available to purchase
+3/11/25
+- table added in help.html (can find the styles below the ".content" selector)
+- used media queries for a responsive layout
+- added text in about.html
+- added a menu button that shows the nav bar with a smaller screen size (does not work)
