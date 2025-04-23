@@ -1,3 +1,6 @@
+4/22/25
+- Added description meta tags to each page
+
 4/15/25
 - Added a products page to the navigation bar, along with the products available to purchase
 - "Add to Cart" takes you to https://webdevbasics.net/cart.html, so a real transaction is not made
