@@ -117,11 +117,15 @@ p {
         display: none; 
         margin: 50px;
 }
-.content { margin-right: 50px; }
+.content { 
+        margin-right: 50px; 
+        margin-left: 50px;
+}
 .content a { 
         text-decoration: none;
         color: #7a7248;
 }
+.threads { padding-bottom: 20px; }
 .subforum-title { padding-left: 20px;}
 .subforum-content {
         display: grid;
@@ -136,7 +140,7 @@ caption {
         text-align: left; 
         margin-bottom: 1em; 
 }
-.comment-form textarea {
+.comment textarea {
         display: flex;
         flex-direction: row;
         width: 90%;
@@ -145,7 +149,8 @@ caption {
 .recent-comment { 
         display: flex;
         flex-direction: column;
-        margin-left: 20px;}
+        padding-bottom: 20px;
+}
 button { margin-left: 25px; }
 input[type="submit"] { 
         width: 9em; 
@@ -199,7 +204,6 @@ video {
                 right: 30px;
                 top: 100px;
         } 
-        .content { margin-left: 50px; } 
         video { 
                 width: 400px;
                 height: 500px;
@@ -218,6 +222,7 @@ video {
         main h2 { text-align: left; }
         .following { display: flex; } 
         .content { margin-right: 50px; }
+        .threads { margin-right: 50px; }
         .about-main { 
                 display: flex;
                 flex-direction: row;

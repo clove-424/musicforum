@@ -35,21 +35,27 @@
 				<h1><a href="index.html">MusicMatcher</a></h1>
 			</header>
 			<main>
-				<div class="comment-form">
-					<textarea name="myComment" id="myComment" cols="40" rows="4" required></textarea>
-					<button onclick="postComment()">Post</button> 
+				<div class="comment">
+					<form class="comment-form" id="comment-form">
+						<textarea name="myComment" id="myComment" cols="40" rows="4" required></textarea>
+						<button type="submit" id="newThreadButton">Post</button> 
+					</form>
 				</div>
 				<h2>Original Soundtracks</h2>
-				<div class="content">
-					<div class="recent-comment">
-						<a href="">@clove424</a><small>1 April 2025</small>
-						<p>What are some of your favorite video game soundtracks?</p>
-						<a href="">5 replies</a>
+				<div class="content" id="content">
+					<div class="threads" id="threads">
+						<div class="recent-comment">
+							<a href="#">@clove424</a><small>1 April 2025</small>
+							<p>What are some of your favorite video game soundtracks?</p>
+							<a href="#">5 replies</a>
+						</div>
 					</div>
-                    <div class="recent-comment">
-						<a href="">@clove424</a><small>1 April 2025</small>
-						<p>What are some playlists you have saved?</p>
-						<a href="">3 replies</a>
+					<div class="threads" id="threads">
+                    	<div class="recent-comment">
+							<a href="#">@clove424</a><small>1 April 2025</small>
+							<p>What are some playlists you have saved?</p>
+							<a href="#">3 replies</a>
+						</div>
 					</div>
 				</div>
 			</main>

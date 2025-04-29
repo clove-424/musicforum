@@ -35,26 +35,20 @@
 				<h1><a href="index.html">MusicMatcher</a></h1>
 			</header>
 			<main>
-				<div class="comment-form">
-					<textarea name="myComment" id="myComment" cols="40" rows="4" required></textarea>
-					<button onclick="postComment()">Post</button> 
+				<div class="comment" id="comment">
+					<form class="comment-form" id="comment-form">
+						<textarea name="myComment" id="myComment" cols="40" rows="4" required></textarea>
+						<button type="submit" id="newThreadButton">Post</button> 
+					</form>
 				</div>
 				<h2>Classical</h2>
-				<div class="content">
-					<div class="recent-comment">
-						<a href="">@clove424</a><small>8 April 2025</small>
-						<p>Here is an audio of my school orchestra's fall concert back in 2023!<br>
-							<audio controls="controls">
-								<source src="fall concert 2023 - audio.mp3" type="audio/mp3">
-								<a href="fall concert 2023 - audio.mp3">New World Symphony Mvt. 4, Fall Concert 2023</a> (MP3)
-							</audio>
-						</p>
-						<a href="">2 replies</a>
-					</div>
-					<div class="recent-comment">
-						<a href="">@clove424</a><small>1 April 2025</small>
-						<p>What are some of your favorite pieces that give your chills?</p>
-						<a href="">2 replies</a>
+				<div class="content" id="content">
+					<div class="threads" id="threads">
+						<div class="recent-comment">
+							<a href="#">@clove424</a><small>1 April 2025</small>
+							<p>What are some of your favorite pieces that give your chills?</p>
+							<a href="#">2 replies</a>
+						</div>
 					</div>
 				</div>
 			</main>

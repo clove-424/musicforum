@@ -1,3 +1,6 @@
+4/29/25
+- can now add threads, but disappear after refreshing or leaving the page
+
 4/22/25
 - Added description meta tags to each page
 
