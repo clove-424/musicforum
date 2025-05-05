@@ -18,7 +18,7 @@
 					</a>	
 					<div class="navigation" id="myNavigation">
 						<ul class="nav-list">
-							<li class="nav-item"><a href="profile.html">Profile</a></li>
+							<!--<li class="nav-item"><a href="profile.html">Profile</a></li>-->
 							<li class="nav-item"><a href="index.html">Home</a></li>	
 							<li class="genre-item"><a href="alternative.html">Alternative</a></li>
 							<li class="genre-item"><a href="classical.html">Classical</a></li>
@@ -28,27 +28,24 @@
 							<li class="nav-item"><a href="help.html">Help</a></li>
 							<li class="nav-item"><a href="products.html">Products</a></li>
 						</ul>
-						<small class="nav-footer">MusicMatcher &copy; 2025</small>
+						<small class="nav-footer"><a href="mailto:clove4@my.westga.edu">clove4@my.westga.edu</a></small>
 					</div>
 				</div>
 				<div class="logo"></div>
 				<h1><a href="index.html">MusicMatcher</a></h1>
 			</header>
 			<main>
-				<div class="comment" id="comment">
-					<form class="comment-form" id="comment-form">
-						<textarea name="myComment" id="myComment" cols="40" rows="4" required></textarea>
-						<button type="submit" id="newThreadButton">Post</button> 
-					</form>
-				</div>
 				<h2>Classical</h2>
+				<form class="comment-form" id="comment-form">
+					<input type="text" name="myName" id="myName" required>
+					<textarea name="myComment" id="myComment" cols="40" rows="4" required></textarea>
+					<button type="submit" id="newThreadButton">Post</button> 
+				</form>
 				<div class="content" id="content">
-					<div class="threads" id="threads">
-						<div class="recent-comment">
-							<a href="#">@clove424</a><small>1 April 2025</small>
-							<p>What are some of your favorite pieces that give your chills?</p>
-							<a href="#">2 replies</a>
-						</div>
+					<div class="thread" id="classicalThread">
+						<a href="#">@clove424</a><small>May 3, 2025</small>
+						<p>What is a piece that gives you chills?</p>
+						<a href="#" class="reply-link" onclick='alert("Reply feature is not available. Create a thread instead.")'>Reply</a>
 					</div>
 				</div>
 			</main>
